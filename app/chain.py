@@ -73,7 +73,7 @@ class Chain:
 llm = ChatGroq(
     model="llama-3.1-70b-versatile",
     temperature=0,
-    groq_api_key="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"  # Ensure this is correctly set in your .env file
+    groq_api_key="YOUR_KEY"  # Ensure this is correctly set in your .env file
 )
 
 chain = Chain(llm)
